@@ -1,0 +1,18 @@
+.carte {
+    font-family: Arial;
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "photo nom"
+        "photo description"
+        "infos infos";
+    grid-column-gap: 20px;
+}
+
+.personne-image { grid-area: photo; }
+.personne-nom { grid-area: nom; }
+.personne-description { grid-area: description; }
+.personne-infos { grid-area: infos; }
+
+
